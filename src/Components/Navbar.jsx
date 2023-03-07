@@ -204,13 +204,13 @@ export const Navbar = () => {
             </Center>
             <Right>
                 <MenuItem>
-                    <Link to='/login'>LOG IN</Link>
+                    <Link to='/login' style={{color:'black',textDecoration:'none'}}>LOG IN</Link>
                 </MenuItem>
                 <MenuItem>
-                    <Link to='/register'>REGISTER</Link>
+                    <Link to='/register' style={{color:'black',textDecoration:'none'}}>REGISTER</Link>
                 </MenuItem>
                 <MenuItemCart>
-                    <Link to='/cart'>
+                    <Link to='/cart' style={{color:'black'}}>
                         <Badge badgeContent={4} color="primary" style={{cursor:'pointer'}}>
                             <ShoppingCartOutlined />
                         </Badge>

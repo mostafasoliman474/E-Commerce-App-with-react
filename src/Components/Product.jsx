@@ -84,7 +84,7 @@ export const Product = ({item}) => {
         <Circule></Circule>
         <Image src={item.src} key={item.id} type={item.type}/>
         <Info>
-            <Link to='/product'>
+            <Link to='/product' style={{color:'black'}}>
                 <Icon>
                     <SearchOutlined/>
                 </Icon>
