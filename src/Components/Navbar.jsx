@@ -200,7 +200,7 @@ export const Navbar = () => {
                
             </Left>
             <Center>
-                <Logo>.MARAH</Logo>
+                <Logo>.DANA</Logo>
             </Center>
             <Right>
                 <MenuItem>
